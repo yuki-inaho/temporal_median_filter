@@ -1,0 +1,39 @@
+####################################
+###  パラメータ設定ファイル            ###
+####################################
+
+### カメラ設定
+[Camera]
+###Pico Zense
+# カメラ画像の横サイズ
+image_width = 640 # int
+# カメラ画像の縦サイズ
+image_height = 480 # int
+# カメラの据え付け角度 [deg]
+theta_pitch = 30.0 # float
+# キャプチャーの速さ [fps]
+capture_fps = 30 # int
+sensor_type = "TOF"
+sensor_id = "zense"
+
+[Debug]
+camera_fx = 456.636
+camera_fy = 456.226
+camera_cx = 342.983
+camera_cy = 233.82
+camera_base_line = 0.0
+
+depth_filename = "/home/inaho-00/work/cpp/zense_filter/data/depth_0003.png"
+
+depth_filename_1 = "/home/inaho-00/work/cpp/zense_filter/data/depth_0000.png"
+depth_filename_2 = "/home/inaho-00/work/cpp/zense_filter/data/depth_0001.png"
+depth_filename_3 = "/home/inaho-00/work/cpp/zense_filter/data/depth_0002.png"
+depth_filename_4 = "/home/inaho-00/work/cpp/zense_filter/data/depth_0003.png"
+depth_filename_5 = "/home/inaho-00/work/cpp/zense_filter/data/depth_0004.png"
+depth_filename_6 = "/home/inaho-00/work/cpp/zense_filter/data/depth_0005.png"
+depth_filename_7 = "/home/inaho-00/work/cpp/zense_filter/data/depth_0006.png"
+depth_filename_8 = "/home/inaho-00/work/cpp/zense_filter/data/depth_0007.png"
+depth_filename_9 = "/home/inaho-00/work/cpp/zense_filter/data/depth_0008.png"
+
+pcd_flt_filename = "/home/inaho-00/work/cpp/zense_filter/data/pcd_flt_0000.pcd"
+pcd_filename = "/home/inaho-00/work/cpp/zense_filter/data/pcd_0000.pcd"
